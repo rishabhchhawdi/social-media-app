@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap");
+a {
+  color: black !important;
+}
+
+.brand-logo,
+h2 {
+  font-family: "Bungee Outline", cursive;
+}
+
+.app {
+  background-color: #fafafa;
+  display: contents;
+}
+.auth-card {
+  padding: 20px;
+  text-align: center;
+  max-width: 400px;
+  margin: 10px auto;
+}
+.mycard {
+  margin-top: 30px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.item {
+  width: 30%;
+}
+
+.post_header {
+  display: inline;
+}
+.home-card {
+  width: 50%;
+  height: 100%;
+  margin: 30px auto;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  text-align: left;
+}
+.home-card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+}
+.post_image {
+  width: 100%;
+  object-fit: contain;
+}
+
+.card-image {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.card-image:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+}
+
+.logout-button {
+  background-color: #ff5858; /* Green */
+  border: none;
+  border-radius: 8px;
+  color: rgb(7, 0, 0);
+  padding: 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.logout-button:hover {
+  background-color: #ff0909; /* Green */
+  color: white;
+}
+.liecs a:hover {
+  background-color: #89aa8a; /* Green */
+  color: white;
+}
+.form__input {
+  position: relative !important;
+
+  font-size: 1em !important;
+
+  background: white !important;
+
+  padding: 3px !important;
+  margin: 6px !important;
+
+  display: inline-block !important;
+
+  border-radius: 9999em !important;
+}
+
+.brand-logo {
+  font-weight: bold;
+}
+
+/* .like-buttons {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: rgb(243, 243, 243);
+  background-color: rgb(255, 250, 250);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+} */
